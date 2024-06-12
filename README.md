@@ -18,3 +18,6 @@ Parallel:
 - compile with `make`
 - Run `mpiexec -n 4 nbody/nbody-par`. <br>
 You will need the MPI library for C. `-n` specifies the number of cores to run the program on.
+
+## Performance
+![](benchmarks.png)
